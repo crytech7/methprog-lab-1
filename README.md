@@ -24,9 +24,10 @@
   #  ====================================================================================================
 ```
 ## Usage
-
+```
   git clone https://github.com/crytech7/methprog-3-year
   cd methprog-3-year
   python3 generate.py
   python3 main.py
   python3 do_graphs.py
+```
