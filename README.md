@@ -23,6 +23,9 @@
   # 	е) Быстрая сортировка
   #  ====================================================================================================
 ```
+
+![Alt text](Sorting algorithms.png "Optional title")
+
 ## Usage
 ```
   git clone https://github.com/crytech7/methprog-3-year
