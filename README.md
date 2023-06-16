@@ -24,7 +24,7 @@
   #  ====================================================================================================
 ```
 
-![Alt text](Sorting algorithms.png "Optional title")
+![Alt text](./Sorting Algorithms.png "Optional title")
 
 ## Usage
 ```
