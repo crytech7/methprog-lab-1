@@ -35,3 +35,9 @@
   python3 main.py
   python3 do_graphs.py
 ```
+## Note
+HTML Report was generated using pdoc. Index page was manually edited to place images and links
+```
+  pip3 install pdoc3
+  pdoc --html .
+```
