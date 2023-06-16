@@ -8,9 +8,10 @@ year = [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 
 name = {'John Smith': 1, 'James Johnson': 1, 'Adam Williams': 1, 'Norman White': 1, 'Thomas Brown': 1, 'Brian Miller': 1, 'Paul Davis': 1, 'George Wilson': 1, 'Mark Anderson': 1, 'Steven Taylor': 1, 'Joseph Evans': 1, 'Michael Thompson': 1, 'David King': 1, 'Richard Walker': 1, 'William Robinson': 1, 'Kenneth Hall': 1, 'Matthew Nelson': 1, 'Kevin Campbell': 1, 'Carl Taylor': 1, 'Jeffrey Adams': 1, 'Thomas Edwards': 1, 'Matthew Baker': 1, 'Nicholas Moore': 1, 'Edward Phillips': 1, 'Joshua Miller': 1, 'John Lewis': 1, 'Albert Gonzalez': 1, 'David James': 1, 'William Moore': 1, 'Joseph Perez': 1, 'Ronald Wilson': 1, 'Richard White': 1, 'Christopher Taylor': 1, 'Timothy Harris': 1, 'Brian Walker': 1, 'Andrew Clark': 1}
 point = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
 
-AMOUNT = 25000
-f = open(f"ds_{AMOUNT}.csv", "w")
-for i in range(AMOUNT):
-    f.write(f"{random.choice(list(countries))},{random.choice(list(fcs))},{random.choice(list(city))},{random.choice(year)},{random.choice(list(name))},{random.choice(point)}\n")
+size = [100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000, 100000]
 
-f.close()
+for i in size:
+    f = open(f"ds_{i}.csv", "w")
+    for _ in range(i):
+        f.write(f"{random.choice(list(countries))},{random.choice(list(fcs))},{random.choice(list(city))},{random.choice(year)},{random.choice(list(name))},{random.choice(point)}\n")
+    f.close()
