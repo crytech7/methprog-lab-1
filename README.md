@@ -23,8 +23,9 @@
   # 	е) Быстрая сортировка
   #  ====================================================================================================
 ```
+## Visual
 
-![Alt text](./Sorting Algorithms.png "Optional title")
+![Alt text](https://github.com/crytech7/methprog-lab-1/blob/main/Sorting%20Algorithms.png "Optional title")
 
 ## Usage
 ```
